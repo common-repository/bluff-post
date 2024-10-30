@@ -1,0 +1,15 @@
+div#wpwrap{
+    background-color: #5e3431;
+}
+
+div.page-header h1, div.page-header div, div.outer_block {
+    color: #e3e4e6;
+}
+
+#footer-thankyou, #footer-upgrade {
+    color: #bd9a66;
+}
+
+div.outer_block .parsley-errors-list  {
+    color: #d5848b;
+}

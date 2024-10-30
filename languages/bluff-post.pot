@@ -1,0 +1,1542 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Bluff Post\n"
+"POT-Creation-Date: 2021-04-28 17:50+0900\n"
+"PO-Revision-Date: 2016-08-15 00:43+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: bluff-post.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: ajax/class-blfpst-ajax.php:205
+msgid "Invalid call has occurred."
+msgstr ""
+
+#: ajax/class-blfpst-ajax.php:220
+msgid "A problem occurred while reading a send data."
+msgstr ""
+
+#: controllers/class-blfpst-admin-menu-controller.php:21
+msgid "Mail Box"
+msgstr ""
+
+#: controllers/class-blfpst-admin-menu-controller.php:31
+#: includes/class-blfpst-dashboard.php:50
+msgid "Calendar"
+msgstr ""
+
+#: controllers/class-blfpst-admin-menu-controller.php:41
+#: includes/class-blfpst-dashboard.php:57 views/send/create.php:82
+#: views/target/info.php:116
+msgid "Create e-mail"
+msgstr ""
+
+#: controllers/class-blfpst-admin-menu-controller.php:51
+#: includes/class-blfpst-dashboard.php:64 views/send/register.php:26
+#: views/send/reserves.php:24
+msgid "Reservation list"
+msgstr ""
+
+#: controllers/class-blfpst-admin-menu-controller.php:56
+#: views/send/sending-mails.php:24
+msgid "Sending e-mail"
+msgstr ""
+
+#: controllers/class-blfpst-admin-menu-controller.php:61
+#: includes/class-blfpst-dashboard.php:71 views/send/histories.php:24
+msgid "Outbox"
+msgstr ""
+
+#: controllers/class-blfpst-admin-menu-controller.php:66
+#: views/send/drafts.php:34
+msgid "Drafts"
+msgstr ""
+
+#: controllers/class-blfpst-admin-menu-controller.php:71
+#: views/common/error.php:17 views/send/failures.php:24 views/send/info.php:295
+msgid "Failure"
+msgstr ""
+
+#: controllers/class-blfpst-admin-menu-controller.php:76
+#: views/send/trashes.php:38
+msgid "Trash"
+msgstr ""
+
+#: controllers/class-blfpst-admin-menu-controller.php:83 views/logs/list.php:23
+msgid "Logs"
+msgstr ""
+
+#: controllers/class-blfpst-admin-menu-controller.php:92
+#: views/template/templates.php:22
+msgid "Mail templates"
+msgstr ""
+
+#: controllers/class-blfpst-admin-menu-controller.php:102
+#: views/send/info.php:368 views/template/create.php:63
+msgid "Registration template"
+msgstr ""
+
+#: controllers/class-blfpst-admin-menu-controller.php:116
+#: views/send/drafts.php:69 views/send/failures.php:58
+#: views/send/histories.php:59 views/send/reserves.php:58
+#: views/send/sending-mails.php:57 views/send/trashes.php:79
+#: views/target/info.php:32 views/target/recipients.php:52
+#: views/target/targets.php:22
+msgid "Recipients"
+msgstr ""
+
+#: controllers/class-blfpst-admin-menu-controller.php:121
+msgid "Registration recipient"
+msgstr ""
+
+#: controllers/class-blfpst-admin-menu-controller.php:131
+msgid "Exclusion receivers list"
+msgstr ""
+
+#: controllers/class-blfpst-admin-menu-controller.php:131
+#: views/target/exclude-recipients.php:24
+#: views/target/exclude-recipients.php:75
+msgid "Exclusion recipients"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: controllers/class-blfpst-admin-menu-controller.php:137
+#: data-sources/class-blfpst-data-source-bluffpost.php:33
+msgid "Bluff Post"
+msgstr ""
+
+#: controllers/class-blfpst-logs-controller.php:87
+#: controllers/class-blfpst-logs-controller.php:105
+#: controllers/class-blfpst-logs-controller.php:206
+#: controllers/class-blfpst-mail-templates-view-controller.php:18
+#: controllers/class-blfpst-mail-templates-view-controller.php:82
+#: controllers/class-blfpst-mail-templates-view-controller.php:102
+#: controllers/class-blfpst-mail-templates-view-controller.php:145
+#: controllers/class-blfpst-mail-templates-view-controller.php:379
+#: controllers/class-blfpst-send-mails-view-controller.php:24
+#: controllers/class-blfpst-send-mails-view-controller.php:93
+#: controllers/class-blfpst-send-mails-view-controller.php:254
+#: controllers/class-blfpst-send-mails-view-controller.php:339
+#: controllers/class-blfpst-send-mails-view-controller.php:379
+#: controllers/class-blfpst-send-mails-view-controller.php:755
+#: controllers/class-blfpst-send-mails-view-controller.php:801
+#: controllers/class-blfpst-send-mails-view-controller.php:840
+#: controllers/class-blfpst-send-mails-view-controller.php:915
+#: controllers/class-blfpst-send-mails-view-controller.php:970
+#: controllers/class-blfpst-send-mails-view-controller.php:1017
+#: controllers/class-blfpst-send-mails-view-controller.php:1077
+#: controllers/class-blfpst-send-mails-view-controller.php:1171
+#: controllers/class-blfpst-targets-controller.php:114
+#: controllers/class-blfpst-targets-view-controller.php:30
+#: controllers/class-blfpst-targets-view-controller.php:88
+#: controllers/class-blfpst-targets-view-controller.php:117
+#: controllers/class-blfpst-targets-view-controller.php:138
+#: controllers/class-blfpst-targets-view-controller.php:173
+#: controllers/class-blfpst-targets-view-controller.php:226
+#: controllers/class-blfpst-targets-view-controller.php:341
+#: controllers/class-blfpst-targets-view-controller.php:382
+#: controllers/class-blfpst-targets-view-controller.php:386
+#: controllers/class-blfpst-targets-view-controller.php:409
+#: controllers/class-blfpst-targets-view-controller.php:422
+#: controllers/class-blfpst-targets-view-controller.php:489
+#: controllers/class-blfpst-targets-view-controller.php:545
+msgid "Invalid access."
+msgstr ""
+
+#: controllers/class-blfpst-mail-templates-view-controller.php:175
+#: views/template/create.php:88
+msgid "Please enter a template name."
+msgstr ""
+
+#: controllers/class-blfpst-mail-templates-view-controller.php:179
+msgid "Please enter a template content."
+msgstr ""
+
+#: controllers/class-blfpst-mail-templates-view-controller.php:183
+#: views/template/create.php:90
+msgid "Please enter a template name 255 or less characters."
+msgstr ""
+
+#: controllers/class-blfpst-mail-templates-view-controller.php:187
+#: controllers/class-blfpst-send-mails-controller.php:75
+#: views/send/create.php:186 views/template/create.php:106
+msgid "Please enter a from name 255 or less characters."
+msgstr ""
+
+#: controllers/class-blfpst-mail-templates-view-controller.php:191
+#: controllers/class-blfpst-send-mails-controller.php:86
+#: views/send/create.php:196 views/template/create.php:120
+msgid "Please enter a from address 255 or less characters."
+msgstr ""
+
+#: controllers/class-blfpst-mail-templates-view-controller.php:195
+#: controllers/class-blfpst-send-mails-controller.php:95
+#: views/send/create.php:211 views/template/create.php:134
+msgid "Please enter a replay address 255 or less characters."
+msgstr ""
+
+#: controllers/class-blfpst-mail-templates-view-controller.php:199
+#: controllers/class-blfpst-send-mails-controller.php:104
+#: views/send/create.php:256 views/template/create.php:147
+msgid "Please enter a subject 255 or less characters."
+msgstr ""
+
+#: controllers/class-blfpst-mail-templates-view-controller.php:203
+#: controllers/class-blfpst-send-mails-controller.php:117
+#: views/send/create.php:324 views/template/create.php:206
+msgid "Please enter a text content 5,000 or less characters."
+msgstr ""
+
+#: controllers/class-blfpst-mail-templates-view-controller.php:207
+#: controllers/class-blfpst-send-mails-controller.php:121
+msgid "HTML text Please enter no more than 10MB."
+msgstr ""
+
+#: controllers/class-blfpst-mail-templates-view-controller.php:289
+msgid "An error has occurred in writing to the DB."
+msgstr ""
+
+#: controllers/class-blfpst-mail-templates-view-controller.php:313
+msgid "Template successfully created."
+msgstr ""
+
+#: controllers/class-blfpst-mail-templates-view-controller.php:316
+msgid "Template successfully updated."
+msgstr ""
+
+#: controllers/class-blfpst-mail-templates-view-controller.php:328
+#: controllers/class-blfpst-mail-templates-view-controller.php:349
+msgid "An error has occurred in reading to the DB."
+msgstr ""
+
+#: controllers/class-blfpst-mail-templates-view-controller.php:360
+msgid "An error occurred while reading the send data."
+msgstr ""
+
+#: controllers/class-blfpst-mail-templates-view-controller.php:391
+msgid "An error occurred while deleting the send data."
+msgstr ""
+
+#: controllers/class-blfpst-mail-templates-view-controller.php:393
+msgid "The template has been deleted successfully."
+msgstr ""
+
+#: controllers/class-blfpst-mail-templates-view-controller.php:408
+#: controllers/class-blfpst-send-mails-view-controller.php:1377
+#: views/send/conf.php:48 views/send/create.php:76 views/send/drafts.php:68
+#: views/send/failures.php:57 views/send/histories.php:58
+#: views/send/reserves.php:57
+msgid "Content"
+msgstr ""
+
+#: controllers/class-blfpst-mail-templates-view-controller.php:409
+#: controllers/class-blfpst-send-mails-view-controller.php:1378
+#: views/send/conf.php:48 views/send/create.php:76
+#: views/template/create.php:199
+msgid "Alternate text content"
+msgstr ""
+
+#: controllers/class-blfpst-mail-templates-view-controller.php:410
+#: controllers/class-blfpst-send-mails-view-controller.php:1379
+msgid "Choose Image"
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-controller.php:43
+msgid "Incorrect specification of reservation."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-controller.php:56
+msgid "The format of the reservation date is invalid."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-controller.php:61
+#: controllers/class-blfpst-send-mails-view-controller.php:573
+msgid "Past has been specified in the transmission reservation date."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-controller.php:65
+msgid "Please select a reservation date."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-controller.php:71
+#: views/send/create.php:185
+msgid "Please enter a from name."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-controller.php:80
+#: views/send/create.php:195
+msgid "Please enter a from address."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-controller.php:82
+msgid "The format of a from address is invalid."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-controller.php:91
+msgid "The format of a reply address is invalid."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-controller.php:100
+#: views/send/create.php:255
+msgid "Please enter a subject."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-controller.php:109
+#: controllers/class-blfpst-send-mails-controller.php:111
+#: controllers/class-blfpst-send-mails-controller.php:113
+#: views/send/create.php:307 views/send/create.php:322
+#: views/template/create.php:190 views/template/create.php:204
+msgid "Please enter a content."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-controller.php:230
+msgid "m.Y"
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-controller.php:1191
+#: controllers/class-blfpst-send-mails-view-controller.php:660
+msgid "Please enter a test mail receiver."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-controller.php:1263
+#: controllers/class-blfpst-send-mails-view-controller.php:737
+msgid "Failed to send processing of test mail."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-controller.php:1360
+msgid "Reservations mail transmission request error"
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-controller.php:1360
+msgid "An error occurred in the DB access at the time of booking read."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-view-controller.php:263
+#: views/send/create.php:37 views/send/create.php:161 views/send/create.php:162
+#: views/send/create.php:163
+msgid "Please select a recipients."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-view-controller.php:442
+msgid "Error occurs in DB access. Send e-mail does not start."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-view-controller.php:466
+msgid "E-Mail delivery completion."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-view-controller.php:467
+msgid "We have received a transmission processing of mail."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-view-controller.php:470
+msgid "Reservation completion."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-view-controller.php:471
+msgid "Was the e-mail of the reservation."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-view-controller.php:613
+msgid "An error occurred in the DB storage process."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-view-controller.php:834
+msgid "There was an error in the cancellation of the reservation."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-view-controller.php:836
+msgid "Reservation canceled."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-view-controller.php:983
+msgid "An error occurred in the deletion of the draft."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-view-controller.php:985
+msgid "Successfully deleted the draft."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-view-controller.php:1033
+#: controllers/class-blfpst-send-mails-view-controller.php:1192
+msgid "An error occurred in the deletion of the trash."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-view-controller.php:1035
+#: controllers/class-blfpst-send-mails-view-controller.php:1194
+msgid "I was emptying the trash."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-view-controller.php:1100
+msgid "An error occurred in the deletion of the sent data."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-view-controller.php:1102
+msgid "Successfully deleted the send data."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-view-controller.php:1372
+#: controllers/class-blfpst-subscribe-controller.php:313
+#: controllers/class-blfpst-targets-view-controller.php:503
+msgid "The e-mail address you entered is incorrect."
+msgstr ""
+
+#: controllers/class-blfpst-send-mails-view-controller.php:1373
+#: controllers/class-blfpst-subscribe-controller.php:309
+#: controllers/class-blfpst-targets-view-controller.php:501
+#: views/target/exclude-recipients.php:54
+msgid "Please enter a e-mail address."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:273
+msgid "An error has occurred in the registration of parameters."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:282
+msgid "An error has occurred in the registration of group."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:294
+msgid "An error has occurred in the registration of recipients."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:309
+#: views/target/create.php:61
+msgid "Please enter a recipients name."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:313
+#: views/target/create.php:62
+msgid "Please enter a recipients name 255 or less characters."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:343
+msgid "Please select a table."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:347
+msgid "Please enter a column."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:351
+msgid "Please enter a compare."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:356
+msgid "Please enter a parameter value."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:363
+msgid "Please enter a recipients parameter value 255 or less characters."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:695
+msgid "Please select a data source."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:706
+#: views/options/option.php:67
+msgid "The format of the bounce e-mail address is invalid."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:719
+msgid "Please select a send request type."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:730
+#: controllers/class-blfpst-targets-controller.php:735
+msgid "Please enter a sendmail command path."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:745
+#: controllers/class-blfpst-targets-controller.php:750
+msgid "Please enter a SMTP host."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:759
+#: controllers/class-blfpst-targets-controller.php:768
+msgid "Please enter a SMTP port."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:764
+#: views/options/option.php:183
+msgid "Please enter a numeric port number."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:782
+msgid "Please select SMTP secure mode."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:787
+msgid "Please select a SMTP secure mode."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:795
+#: controllers/class-blfpst-targets-controller.php:800
+#: views/options/option.php:221
+msgid "Please enter a SMTP user name."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:808
+#: controllers/class-blfpst-targets-controller.php:813
+#: views/options/option.php:233
+msgid "Please enter a SMTP password."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:824
+msgid "Please select a mail charset."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:835
+#: views/options/option.php:311
+msgid "Please enter a numeric continuous transmission count."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:846
+#: views/options/option.php:324
+msgid "Please enter a numeric transmission interval."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:856
+msgid "Please select a theme."
+msgstr ""
+
+#: controllers/class-blfpst-targets-controller.php:860
+msgid "Options have been saved."
+msgstr ""
+
+#: controllers/class-blfpst-targets-view-controller.php:346
+msgid ""
+"The e-mail in the reservation or send exists. This data can not be changed."
+msgstr ""
+
+#: controllers/class-blfpst-targets-view-controller.php:391
+msgid ""
+"The e-mail in the reservation or send exists. This data can not be deleted."
+msgstr ""
+
+#: controllers/class-blfpst-targets-view-controller.php:397
+msgid "Successfully deleted the target."
+msgstr ""
+
+#: controllers/class-blfpst-targets-view-controller.php:507
+#: views/target/exclude-recipients.php:56
+msgid "Please enter a recipients e-mail address 255 or less characters."
+msgstr ""
+
+#: controllers/class-blfpst-targets-view-controller.php:512
+msgid "E-mail address added."
+msgstr ""
+
+#: controllers/class-blfpst-targets-view-controller.php:523
+msgid "E-mail address deleted."
+msgstr ""
+
+#: controllers/class-blfpst-targets-view-controller.php:586
+#: views/target/create.php:138 views/target/info.php:72
+msgid "table"
+msgstr ""
+
+#: controllers/class-blfpst-targets-view-controller.php:587
+#: views/target/create.php:151 views/target/info.php:73
+msgid "column"
+msgstr ""
+
+#: controllers/class-blfpst-targets-view-controller.php:588
+#: views/target/create.php:208 views/target/info.php:75
+msgid "value"
+msgstr ""
+
+#: controllers/class-blfpst-targets-view-controller.php:589
+#: views/target/create.php:99
+msgid "group"
+msgstr ""
+
+#: controllers/class-blfpst-targets-view-controller.php:590
+msgid "Recipients count"
+msgstr ""
+
+#: data-sources/class-blfpst-data-source-bluffpost.php:24
+msgid "Bluffpost"
+msgstr ""
+
+#: data-sources/class-blfpst-data-source-bluffpost.php:42
+msgid "Bluff Post DB"
+msgstr ""
+
+#: data-sources/class-blfpst-data-source-bluffpost.php:212
+#: data-sources/class-blfpst-data-source-welcart.php:285
+#: data-sources/class-blfpst-data-source-woocommercebeta.php:197
+#: data-sources/class-blfpst-data-source-wordpress.php:288
+msgid "Replace key"
+msgstr ""
+
+#: data-sources/class-blfpst-data-source-bluffpost.php:212
+#: data-sources/class-blfpst-data-source-welcart.php:285
+#: data-sources/class-blfpst-data-source-woocommercebeta.php:197
+#: data-sources/class-blfpst-data-source-wordpress.php:288
+msgid "Replace value"
+msgstr ""
+
+#: data-sources/class-blfpst-data-source-bluffpost.php:214
+#: data-sources/class-blfpst-data-source-welcart.php:287
+#: data-sources/class-blfpst-data-source-woocommercebeta.php:199
+#: data-sources/class-blfpst-data-source-wordpress.php:290
+msgid "Receiver name"
+msgstr ""
+
+#: data-sources/class-blfpst-data-source-bluffpost.php:215
+#: data-sources/class-blfpst-data-source-welcart.php:288
+#: data-sources/class-blfpst-data-source-woocommercebeta.php:200
+msgid "Receiver last name"
+msgstr ""
+
+#: data-sources/class-blfpst-data-source-bluffpost.php:216
+#: data-sources/class-blfpst-data-source-welcart.php:289
+#: data-sources/class-blfpst-data-source-woocommercebeta.php:201
+msgid "Receiver first name"
+msgstr ""
+
+#: data-sources/class-blfpst-data-source-bluffpost.php:217
+#: data-sources/class-blfpst-data-source-welcart.php:290
+#: data-sources/class-blfpst-data-source-woocommercebeta.php:202
+#: data-sources/class-blfpst-data-source-wordpress.php:291
+msgid "Receiver e-mail address"
+msgstr ""
+
+#: data-sources/class-blfpst-data-source-bluffpost.php:218
+#: data-sources/class-blfpst-data-source-welcart.php:291
+#: data-sources/class-blfpst-data-source-woocommercebeta.php:203
+#: data-sources/class-blfpst-data-source-wordpress.php:292
+msgid "Receiver ID"
+msgstr ""
+
+#: data-sources/class-blfpst-data-source-bluffpost.php:219
+#: data-sources/class-blfpst-data-source-welcart.php:292
+#: data-sources/class-blfpst-data-source-woocommercebeta.php:204
+#: data-sources/class-blfpst-data-source-wordpress.php:293
+msgid "Mail ID"
+msgstr ""
+
+#: data-sources/class-blfpst-data-source-bluffpost.php:220
+#: data-sources/class-blfpst-data-source-welcart.php:293
+#: data-sources/class-blfpst-data-source-woocommercebeta.php:205
+#: data-sources/class-blfpst-data-source-wordpress.php:294
+msgid "Mail page URL"
+msgstr ""
+
+#: data-sources/class-blfpst-data-source-bluffpost.php:221
+#: data-sources/class-blfpst-data-source-welcart.php:294
+#: data-sources/class-blfpst-data-source-woocommercebeta.php:206
+#: data-sources/class-blfpst-data-source-wordpress.php:295
+msgid "Random ID for Google Measurement Protocol (&cid)"
+msgstr ""
+
+#: data-sources/class-blfpst-data-source-welcart.php:24
+#: data-sources/class-blfpst-data-source-welcart.php:33
+msgid "Welcart"
+msgstr ""
+
+#: data-sources/class-blfpst-data-source-welcart.php:42
+msgid "Welcart DB"
+msgstr ""
+
+#: data-sources/class-blfpst-data-source-woocommercebeta.php:37
+msgid "Woocommercebeta"
+msgstr ""
+
+#: data-sources/class-blfpst-data-source-woocommercebeta.php:46
+msgid "Woocommerce beta"
+msgstr ""
+
+#: data-sources/class-blfpst-data-source-woocommercebeta.php:55
+msgid "Woocommerce DB(beta)"
+msgstr ""
+
+#: data-sources/class-blfpst-data-source-wordpress.php:24
+#: data-sources/class-blfpst-data-source-wordpress.php:33
+msgid "WordPress"
+msgstr ""
+
+#: data-sources/class-blfpst-data-source-wordpress.php:42
+msgid "WordPress DB"
+msgstr ""
+
+#: modules/class-blfpst-custom-post-manager.php:25
+msgid "Mails"
+msgstr ""
+
+#: modules/class-blfpst-custom-post-manager.php:26
+#: modules/class-blfpst-custom-post-manager.php:37
+msgid "Mail"
+msgstr ""
+
+#: modules/class-blfpst-custom-post-manager.php:27
+msgid "Add New"
+msgstr ""
+
+#: modules/class-blfpst-custom-post-manager.php:28
+msgid "Add New Article"
+msgstr ""
+
+#: modules/class-blfpst-custom-post-manager.php:29
+msgid "Edit Mail"
+msgstr ""
+
+#: modules/class-blfpst-custom-post-manager.php:30
+msgid "New Mail"
+msgstr ""
+
+#: modules/class-blfpst-custom-post-manager.php:31
+msgid "All Mails"
+msgstr ""
+
+#: modules/class-blfpst-custom-post-manager.php:32
+msgid "View Mail"
+msgstr ""
+
+#: modules/class-blfpst-custom-post-manager.php:33
+msgid "Search Mails"
+msgstr ""
+
+#: modules/class-blfpst-custom-post-manager.php:34
+msgid "No Mails found"
+msgstr ""
+
+#: modules/class-blfpst-custom-post-manager.php:35
+msgid "No Mails found in the Trash"
+msgstr ""
+
+#: modules/class-blfpst-custom-post-manager.php:74
+#: modules/class-blfpst-custom-post-manager.php:75
+#: modules/class-blfpst-custom-post-manager.php:84
+msgid "Mail Category"
+msgstr ""
+
+#: modules/class-blfpst-custom-post-manager.php:76
+msgid "Search Mail Category"
+msgstr ""
+
+#: modules/class-blfpst-custom-post-manager.php:77
+msgid "All Mail Category"
+msgstr ""
+
+#: modules/class-blfpst-custom-post-manager.php:78
+msgid "Parent Mail Category"
+msgstr ""
+
+#: modules/class-blfpst-custom-post-manager.php:79
+msgid "Parent Mail Category:"
+msgstr ""
+
+#: modules/class-blfpst-custom-post-manager.php:80
+msgid "Edit Mail Category"
+msgstr ""
+
+#: modules/class-blfpst-custom-post-manager.php:81
+msgid "Update Mail Category"
+msgstr ""
+
+#: modules/class-blfpst-custom-post-manager.php:82
+msgid "Add New Mail Category"
+msgstr ""
+
+#: modules/class-blfpst-custom-post-manager.php:83
+msgid "New Mail Category Name"
+msgstr ""
+
+#: modules/class-blfpst-send-mail.php:540
+msgid "Invalid call has occurred. Send e-mail does not start."
+msgstr ""
+
+#: modules/class-blfpst-send-mail.php:568
+#, php-format
+msgid "It started '%s' mail transmission request processing."
+msgstr ""
+
+#: modules/class-blfpst-send-mail.php:569
+msgid "E-mail transmission request has started."
+msgstr ""
+
+#: modules/class-blfpst-send-mail.php:589
+#, php-format
+msgid "It finished '%s' mail transmission request processing."
+msgstr ""
+
+#: modules/class-blfpst-send-mail.php:590
+msgid "E-mail transmission request has finished."
+msgstr ""
+
+#: modules/class-blfpst-send-mail.php:600
+#, php-format
+msgid ""
+"Error has occurred in '%s' mail transmission request. total %d sent %d "
+"(success %d failure %d) untreated %d SQL %s."
+msgstr ""
+
+#: modules/class-blfpst-send-mail.php:619
+#, php-format
+msgid "The '%s' e-mail transmission request was 0 destination."
+msgstr ""
+
+#: modules/class-blfpst-send-mail.php:620
+msgid "No target"
+msgstr ""
+
+#: modules/class-blfpst-send-mail.php:625
+msgid "Receivers data as failed to read from DB. Send e-mail does not start."
+msgstr ""
+
+#: modules/class-blfpst-send-mail.php:634
+msgid "The send data is invalid. Send e-mail does not start."
+msgstr ""
+
+#: modules/class-blfpst-send-mail.php:637
+msgid "The recipients data is invalid. Send e-mail does not start."
+msgstr ""
+
+#: modules/class-blfpst-send-mail.php:655
+msgid "Mail transmission request error"
+msgstr ""
+
+#: modules/class-blfpst-user-manager.php:18
+msgid "Mail magazine editor"
+msgstr ""
+
+#: modules/utility.php:35
+msgid "Y/m/d H:i"
+msgstr ""
+
+#: modules/utility.php:50
+msgid "Y/m/d H:i:s"
+msgstr ""
+
+#: shortcode/blfpst-class-unsubscribe-shortcode.php:34
+#: widgets/class-blfpst-subscribe-widgets.php:174
+msgid "Unsubscribe"
+msgstr ""
+
+#: shortcode/blfpst-class-unsubscribe-shortcode.php:38
+#: views/options/option.php:69 views/send/create.php:192
+#: views/template/create.php:118 widgets/class-blfpst-subscribe-widgets.php:189
+msgid "e-mail address"
+msgstr ""
+
+#: views/logs/list.php:35
+msgid "Operation log"
+msgstr ""
+
+#: views/logs/list.php:60
+msgid "There is no log."
+msgstr ""
+
+#: views/options/option.php:34
+msgid "Bluff Post options"
+msgstr ""
+
+#: views/options/option.php:56
+msgid "failure"
+msgstr ""
+
+#: views/options/option.php:61
+msgid "Bounce e-mail address"
+msgstr ""
+
+#: views/options/option.php:68
+msgid "Please enter a bounce e-mail address 255 or less characters."
+msgstr ""
+
+#: views/options/option.php:79 views/target/create.php:68
+msgid "DB"
+msgstr ""
+
+#: views/options/option.php:108
+msgid "Send Mail"
+msgstr ""
+
+#: views/options/option.php:114
+msgid "Use PHP mail()"
+msgstr ""
+
+#: views/options/option.php:121
+msgid "Using the mail function of PHP to send the e-mail."
+msgstr ""
+
+#: views/options/option.php:129
+msgid "use sendmail command"
+msgstr ""
+
+#: views/options/option.php:136
+msgid "Use the sendmail command to send mail."
+msgstr ""
+
+#: views/options/option.php:144
+msgid "Please enter a path to the sendmail command."
+msgstr ""
+
+#: views/options/option.php:146
+msgid "Specify the path to the sendmail command."
+msgstr ""
+
+#: views/options/option.php:156
+msgid "To use the specified SMTP server"
+msgstr ""
+
+#: views/options/option.php:163
+msgid "Using the specified SMTP server to send mail."
+msgstr ""
+
+#: views/options/option.php:165
+msgid "Host"
+msgstr ""
+
+#: views/options/option.php:170
+msgid "Please enter a host name or IP address."
+msgstr ""
+
+#: views/options/option.php:172
+msgid "Specify the host name or IP address of the SMTP server."
+msgstr ""
+
+#: views/options/option.php:176
+msgid "Port"
+msgstr ""
+
+#: views/options/option.php:184
+msgid "Please input a port number."
+msgstr ""
+
+#: views/options/option.php:186
+msgid "Specify the port number of the SMTP server."
+msgstr ""
+
+#: views/options/option.php:191
+msgid "SMTP Auth"
+msgstr ""
+
+#: views/options/option.php:197
+msgid "Use SMTP Auth"
+msgstr ""
+
+#: views/options/option.php:199
+msgid "Specify SMTP auth."
+msgstr ""
+
+#: views/options/option.php:204
+msgid "Secure mode"
+msgstr ""
+
+#: views/options/option.php:211
+msgid "Specify SMTP secure mode."
+msgstr ""
+
+#: views/options/option.php:216
+msgid "User name"
+msgstr ""
+
+#: views/options/option.php:223
+msgid "Specify the SMTP user name."
+msgstr ""
+
+#: views/options/option.php:228
+msgid "Password"
+msgstr ""
+
+#: views/options/option.php:235
+msgid "Specify the SMTP password."
+msgstr ""
+
+#: views/options/option.php:249
+msgid "Notification option"
+msgstr ""
+
+#: views/options/option.php:254
+msgid "Notification address"
+msgstr ""
+
+#: views/options/option.php:258
+msgid ""
+"When sending mail processing execution, and notifies the execution of the "
+"transmission processing by adding any destination to the end of the "
+"destination."
+msgstr ""
+
+#: views/options/option.php:268
+msgid "Charset"
+msgstr ""
+
+#: views/options/option.php:273
+msgid "Mail charset"
+msgstr ""
+
+#: views/options/option.php:300
+msgid "Speed limit"
+msgstr ""
+
+#: views/options/option.php:305
+msgid "Continuous transmission count"
+msgstr ""
+
+#: views/options/option.php:312
+msgid "Please enter a continuous transmission count."
+msgstr ""
+
+#: views/options/option.php:314
+msgid "Specify the continuous transmission count. 0 is no limits."
+msgstr ""
+
+#: views/options/option.php:318
+msgid "Transmission interval(sec)"
+msgstr ""
+
+#: views/options/option.php:325
+msgid "Please enter a transmission interval."
+msgstr ""
+
+#: views/options/option.php:327
+msgid "Specify the transmission interval. 0 is no interval."
+msgstr ""
+
+#: views/options/option.php:336
+msgid "Appearance"
+msgstr ""
+
+#: views/options/option.php:341
+msgid "Theme"
+msgstr ""
+
+#: views/options/option.php:359 views/send/create.php:115
+msgid "Reservation"
+msgstr ""
+
+#: views/options/option.php:364
+msgid "CRON"
+msgstr ""
+
+#: views/options/option.php:367
+msgid ""
+"Please set the following execution URL to CRON for the reservation process."
+msgstr ""
+
+#: views/options/option.php:369
+msgid "cron setting example:"
+msgstr ""
+
+#: views/options/option.php:375
+msgid "Notification"
+msgstr ""
+
+#: views/options/option.php:379
+msgid ""
+"Enter your email address If you want to notice at the time of booking "
+"transmission start."
+msgstr ""
+
+#: views/options/option.php:386
+msgid "Saving changes"
+msgstr ""
+
+#: views/send/calendar.php:46
+msgid "Sun"
+msgstr ""
+
+#: views/send/calendar.php:47
+msgid "Mon"
+msgstr ""
+
+#: views/send/calendar.php:48
+msgid "Tue"
+msgstr ""
+
+#: views/send/calendar.php:49
+msgid "Wed"
+msgstr ""
+
+#: views/send/calendar.php:50
+msgid "Thu"
+msgstr ""
+
+#: views/send/calendar.php:51
+msgid "Fri"
+msgstr ""
+
+#: views/send/calendar.php:52
+msgid "Sat"
+msgstr ""
+
+#: views/send/conf.php:50
+msgid "The same as the from e-mail address."
+msgstr ""
+
+#: views/send/conf.php:51 views/template/info.php:30
+msgid "Unspecified"
+msgstr ""
+
+#: views/send/conf.php:88 views/send/reserves.php:59
+msgid "Reservation date"
+msgstr ""
+
+#: views/send/conf.php:94 views/send/create.php:147
+msgid "Target"
+msgstr ""
+
+#: views/send/conf.php:102 views/send/create.php:175 views/send/create.php:496
+#: views/send/info.php:205 views/template/create.php:99
+#: views/template/info.php:94
+msgid "Form"
+msgstr ""
+
+#: views/send/conf.php:111 views/send/create.php:205 views/send/create.php:213
+#: views/send/create.php:497 views/send/info.php:212
+#: views/template/create.php:128 views/template/create.php:132
+#: views/template/info.php:104
+msgid "Replay"
+msgstr ""
+
+#: views/send/conf.php:121 views/send/create.php:272 views/send/info.php:341
+#: views/template/create.php:159 views/template/info.php:126
+msgid "HTML mail"
+msgstr ""
+
+#: views/send/conf.php:129 views/send/create.php:277 views/send/info.php:351
+#: views/template/create.php:164 views/template/info.php:145
+msgid "Text mail"
+msgstr ""
+
+#: views/send/conf.php:138
+msgid "Back"
+msgstr ""
+
+#: views/send/conf.php:142
+msgid "To start transmission"
+msgstr ""
+
+#: views/send/conf.php:145 views/send/info.php:375
+msgid "Change reservation"
+msgstr ""
+
+#: views/send/conf.php:147
+msgid "Registration reservation"
+msgstr ""
+
+#: views/send/create.php:105 views/send/create.php:112
+#: views/send/create.php:119
+msgid "reservation on/off"
+msgstr ""
+
+#: views/send/create.php:108
+msgid "Immediate"
+msgstr ""
+
+#: views/send/create.php:125
+msgid "select the reservation date"
+msgstr ""
+
+#: views/send/create.php:137
+msgid "To transmit immediately"
+msgstr ""
+
+#: views/send/create.php:146
+msgid "select recipients"
+msgstr ""
+
+#: views/send/create.php:174
+msgid "select the from"
+msgstr ""
+
+#: views/send/create.php:182 views/template/create.php:104
+msgid "From name"
+msgstr ""
+
+#: views/send/create.php:222
+msgid "Page publish"
+msgstr ""
+
+#: views/send/create.php:226
+msgid "not create"
+msgstr ""
+
+#: views/send/create.php:227
+msgid "create draft"
+msgstr ""
+
+#: views/send/create.php:228
+msgid "publish page"
+msgstr ""
+
+#: views/send/create.php:243 views/send/create.php:425
+msgid "select a template"
+msgstr ""
+
+#: views/send/create.php:244 views/send/create.php:258 views/send/drafts.php:67
+#: views/send/failures.php:56 views/send/histories.php:57
+#: views/send/reserves.php:56 views/send/sending-mails.php:56
+#: views/send/trashes.php:78 views/template/create.php:141
+#: views/template/create.php:145 views/template/info.php:113
+msgid "Subject"
+msgstr ""
+
+#: views/send/create.php:283 views/template/create.php:170
+msgid "Insert image"
+msgstr ""
+
+#: views/send/create.php:288 views/template/create.php:175
+msgid "Preview HTML mail"
+msgstr ""
+
+#: views/send/create.php:292
+msgid "Inliner"
+msgstr ""
+
+#: views/send/create.php:301 views/template/create.php:184
+msgid "Input HTML code"
+msgstr ""
+
+#: views/send/create.php:302 views/template/create.php:185
+#: views/template/info.php:134
+msgid "HTML code"
+msgstr ""
+
+#: views/send/create.php:333 views/template/create.php:215
+msgid "*Input required."
+msgstr ""
+
+#: views/send/create.php:339
+msgid "to send a test e-mail"
+msgstr ""
+
+#: views/send/create.php:340 views/send/create.php:398
+#: views/send/create.php:413
+msgid "Send test mail"
+msgstr ""
+
+#: views/send/create.php:345
+msgid "save to draft"
+msgstr ""
+
+#: views/send/create.php:346
+msgid "Save"
+msgstr ""
+
+#: views/send/create.php:351
+msgid "Confirm"
+msgstr ""
+
+#: views/send/create.php:357 views/template/create.php:231
+msgid "Insert description"
+msgstr ""
+
+#: views/send/create.php:361 views/template/create.php:236
+msgid "Available insert strings."
+msgstr ""
+
+#: views/send/create.php:367
+msgid "Mail Tracking"
+msgstr ""
+
+#: views/send/create.php:404 views/send/create.php:406
+msgid "The receiver e-mail address of the test mail"
+msgstr ""
+
+#: views/send/create.php:410
+msgid "Cancel"
+msgstr ""
+
+#: views/send/create.php:432
+msgid "Loading template...."
+msgstr ""
+
+#: views/send/create.php:445 views/template/templates.php:98
+msgid "There is no template that has been registered."
+msgstr ""
+
+#: views/send/create.php:456
+msgid "select a recipients"
+msgstr ""
+
+#: views/send/create.php:475
+msgid "Please select a target."
+msgstr ""
+
+#: views/send/create.php:486
+msgid "select a from"
+msgstr ""
+
+#: views/send/create.php:514
+msgid "There is no from that has been registered."
+msgstr ""
+
+#: views/send/drafts.php:70
+msgid "Update"
+msgstr ""
+
+#: views/send/drafts.php:113
+msgid "There is no mail in the draft."
+msgstr ""
+
+#: views/send/drafts.php:179 views/send/info.php:405 views/send/trashes.php:185
+#: views/target/info.php:173 views/template/info.php:177
+msgid "Confirm delete"
+msgstr ""
+
+#: views/send/drafts.php:182
+msgid "Are you sure you want to delete this draft?"
+msgstr ""
+
+#: views/send/drafts.php:185 views/send/info.php:414 views/send/info.php:443
+#: views/send/trashes.php:191 views/target/info.php:179
+#: views/template/info.php:186
+msgid "No"
+msgstr ""
+
+#: views/send/drafts.php:186 views/send/info.php:415 views/send/info.php:444
+#: views/send/trashes.php:192 views/target/info.php:180
+#: views/template/info.php:187
+msgid "Yes"
+msgstr ""
+
+#: views/send/failures.php:59 views/send/histories.php:60
+msgid "Sent count"
+msgstr ""
+
+#: views/send/failures.php:98
+msgid "Error information does not exist."
+msgstr ""
+
+#: views/send/histories.php:61
+msgid "Start date"
+msgstr ""
+
+#: views/send/histories.php:103
+msgid "There is no transmission history."
+msgstr ""
+
+#: views/send/info.php:59
+msgid "Cancel reservation"
+msgstr ""
+
+#: views/send/info.php:59 views/target/info.php:109 views/template/info.php:165
+msgid "Delete"
+msgstr ""
+
+#: views/send/info.php:198
+msgid "Sending request..."
+msgstr ""
+
+#: views/send/info.php:225 views/send/info.php:231
+msgid "Destination count"
+msgstr ""
+
+#: views/send/info.php:241 views/send/info.php:247
+msgid "Transmission count"
+msgstr ""
+
+#: views/send/info.php:255 views/send/info.php:261
+msgid "Failure count"
+msgstr ""
+
+#: views/send/info.php:296 views/send/send-start.php:30
+msgid "There was a problem with the transmission request to the mail server."
+msgstr ""
+
+#: views/send/info.php:364
+msgid "Copy to create"
+msgstr ""
+
+#: views/send/info.php:411
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#: views/send/info.php:434
+msgid "Confirm cancel"
+msgstr ""
+
+#: views/send/info.php:440
+msgid "Are you sure you want to cancel?"
+msgstr ""
+
+#: views/send/reserves.php:97
+msgid "There is no e-mail that has been reserved."
+msgstr ""
+
+#: views/send/send-start.php:119
+msgid "It just have a transmission request."
+msgstr ""
+
+#: views/send/send-start.php:156
+msgid "More information"
+msgstr ""
+
+#: views/send/sending-mails.php:58
+msgid "Start request"
+msgstr ""
+
+#: views/send/sending-mails.php:89
+msgid "There is no mail being sent request."
+msgstr ""
+
+#: views/send/trashes.php:65
+msgid "Empty Trash"
+msgstr ""
+
+#: views/send/trashes.php:80
+msgid "Deletion date"
+msgstr ""
+
+#: views/send/trashes.php:114
+msgid "There is no mail in the trash."
+msgstr ""
+
+#: views/send/trashes.php:188
+msgid "Are you sure you want to empty the Trash?"
+msgstr ""
+
+#: views/target/create.php:27
+msgid "Registration recipients"
+msgstr ""
+
+#: views/target/create.php:56
+msgid "Recipients name"
+msgstr ""
+
+#: views/target/create.php:233
+msgid "Add group"
+msgstr ""
+
+#: views/target/create.php:237 views/target/info.php:158
+msgid "Preview recipients"
+msgstr ""
+
+#: views/target/create.php:239
+msgid "Preview SQL"
+msgstr ""
+
+#: views/target/create.php:240 views/template/create.php:220
+msgid "Registration"
+msgstr ""
+
+#: views/target/create.php:240
+msgid "Update recipients"
+msgstr ""
+
+#: views/target/create.php:253
+msgid "Recipients 0"
+msgstr ""
+
+#: views/target/create.php:256
+msgid "Loading...."
+msgstr ""
+
+#: views/target/exclude-recipients.php:51
+msgid "Exclude e-mail address"
+msgstr ""
+
+#: views/target/exclude-recipients.php:97
+msgid "There is no e-mail address that is registered."
+msgstr ""
+
+#: views/target/info.php:71
+msgid "and/or"
+msgstr ""
+
+#: views/target/info.php:74
+msgid "compare"
+msgstr ""
+
+#: views/target/info.php:105 views/template/info.php:158
+msgid "Edit"
+msgstr ""
+
+#: views/target/info.php:122
+msgid "There is no data that has been registered."
+msgstr ""
+
+#: views/target/info.php:132
+msgid ""
+"Send data during and transmission contracts that specify this recipients."
+msgstr ""
+
+#: views/target/info.php:176
+msgid "Are you sure you want to delete this recipients?"
+msgstr ""
+
+#: views/target/targets.php:59
+msgid "There is no recipients conditions that have been registered."
+msgstr ""
+
+#: views/template/create.php:83 views/template/create.php:86
+msgid "Template name"
+msgstr ""
+
+#: views/template/create.php:113
+msgid "From address"
+msgstr ""
+
+#: views/template/create.php:220
+msgid "Update Template"
+msgstr ""
+
+#: views/template/info.php:183
+msgid "Are you sure you want to delete this template condition?"
+msgstr ""
+
+#: widgets/class-blfpst-subscribe-widgets.php:18
+msgid "Subscribe widget"
+msgstr ""
+
+#: widgets/class-blfpst-subscribe-widgets.php:102
+msgid "Data source:"
+msgstr ""
+
+#: widgets/class-blfpst-subscribe-widgets.php:111
+msgid "Heading:"
+msgstr ""
+
+#: widgets/class-blfpst-subscribe-widgets.php:113
+msgid "Description:"
+msgstr ""
+
+#: widgets/class-blfpst-subscribe-widgets.php:116
+msgid "Subscribe button title:"
+msgstr ""
+
+#: widgets/class-blfpst-subscribe-widgets.php:119
+msgid "Unsubscribe button title:"
+msgstr ""
+
+#: widgets/class-blfpst-subscribe-widgets.php:122
+msgid "Subscribe completion message:"
+msgstr ""
+
+#: widgets/class-blfpst-subscribe-widgets.php:125
+msgid "Unsubscribe completion message:"
+msgstr ""
+
+#: widgets/class-blfpst-subscribe-widgets.php:173
+msgid "Subscribe"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.bluff-lab.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Publish the e-mail magazine plugin for WordPress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Hideaki Oguchi"
+msgstr ""

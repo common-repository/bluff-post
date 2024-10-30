@@ -1,0 +1,47 @@
+{
+  "class_name": "WordPress",
+  "title": {
+    "en_US": "WordPress subscribers (from subscribe widget)",
+    "ja": "WordPress購読者(ウィジェット登録者のみ)"
+  },
+  "type": "builder",
+  "description": {
+    "en_US": "",
+    "ja": "ウィジェットから購読の登録を行ったWordPress購読者ユーザー"
+  },
+  "conditionals": [
+    {
+      "and_or": "",
+      "conditionals": [
+        {
+          "and_or": "",
+          "table_name": "wp_usermeta",
+          "column_name": "meta_key",
+          "compare": "=",
+          "column_value": "wp_capabilities"
+        },
+        {
+          "and_or": "AND",
+          "table_name": "wp_usermeta",
+          "column_name": "meta_value",
+          "compare": "LIKE",
+          "column_value": "subscriber"
+        },
+        {
+          "and_or": "AND",
+          "table_name": "wp_usermeta",
+          "column_name": "meta_key",
+          "compare": "=",
+          "column_value": "_blfpst_subscribe_mailmagazine"
+        },
+        {
+          "and_or": "AND",
+          "table_name": "wp_usermeta",
+          "column_name": "meta_value",
+          "compare": "=",
+          "column_value": "subscribe"
+        }
+      ]
+    }
+  ]
+}
